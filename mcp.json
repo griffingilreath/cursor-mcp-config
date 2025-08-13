@@ -18,6 +18,22 @@
     "qa-docs": {
       "command": "node",
       "args": ["~/.cursor/mcp-servers/qa-docs/server.js"]
+    },
+    "studio-orchestrator": {
+      "command": "node",
+      "args": ["~/.cursor/mcp-servers/studio-space-agents/orchestrator.js"]
+    },
+    "studio-designkit": {
+      "command": "node",
+      "args": ["~/.cursor/mcp-servers/studio-space-agents/designkit.js"]
+    },
+    "studio-datakit": {
+      "command": "node",
+      "args": ["~/.cursor/mcp-servers/studio-space-agents/datakit.js"]
+    },
+    "studio-plankit": {
+      "command": "node",
+      "args": ["~/.cursor/mcp-servers/studio-space-agents/plankit.js"]
     }
   }
 }

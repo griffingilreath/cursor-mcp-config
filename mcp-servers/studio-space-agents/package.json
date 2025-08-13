@@ -1,0 +1,19 @@
+{
+  "name": "studio-space-agents",
+  "version": "1.0.0",
+  "description": "MCP agents for Studio Space Manager iOS app development",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "agents": {
+    "orchestrator": "orchestrator.js",
+    "designkit": "designkit.js",
+    "datakit": "datakit.js",
+    "plankit": "plankit.js"
+  }
+}
