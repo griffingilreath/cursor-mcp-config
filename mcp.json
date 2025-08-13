@@ -9,14 +9,7 @@
     },
     "terminal": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-terminal"]
-    },
-    "github": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
-      }
+      "args": ["-y", "@wonderwhy-er/desktop-commander"]
     },
     "planner": {
       "command": "node",
