@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem"],
+      "env": {
+        "MCP_FILESYSTEM_ROOT": "."
+      }
+    },
+    "terminal": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-terminal"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    },
+    "planner": {
+      "command": "node",
+      "args": ["~/.cursor/mcp-servers/planner/server.js"]
+    },
+    "qa-docs": {
+      "command": "node",
+      "args": ["~/.cursor/mcp-servers/qa-docs/server.js"]
+    }
+  }
+}

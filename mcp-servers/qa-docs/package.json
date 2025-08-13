@@ -1,0 +1,13 @@
+{
+  "name": "mcp-qa-docs-server",
+  "version": "1.0.0",
+  "description": "MCP server that converts task results to docs/checklists",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

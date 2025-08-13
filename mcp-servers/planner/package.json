@@ -1,0 +1,13 @@
+{
+  "name": "mcp-planner-server",
+  "version": "1.0.0",
+  "description": "A tiny local MCP server that breaks work into tasks and returns a plan",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
